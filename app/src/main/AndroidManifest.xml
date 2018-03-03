@@ -157,9 +157,7 @@
             android:configChanges="orientation|keyboardHidden"
             android:parentActivityName=".Model.livePage"
             android:screenOrientation="portrait" />
-
-
-
+        
         <receiver android:name=".Activities.ReminderReceiver" />
 
         <service android:name=".Activities.start_ringtone"
